@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("FirstLaboratory")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("SecondLaboratory_ADFGVX")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9dd177920d25ba66bc7eb6c5cf0e8ceddea78004")]
-[assembly: System.Reflection.AssemblyProductAttribute("FirstLaboratory")]
-[assembly: System.Reflection.AssemblyTitleAttribute("FirstLaboratory")]
+[assembly: System.Reflection.AssemblyProductAttribute("SecondLaboratory_ADFGVX")]
+[assembly: System.Reflection.AssemblyTitleAttribute("SecondLaboratory_ADFGVX")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

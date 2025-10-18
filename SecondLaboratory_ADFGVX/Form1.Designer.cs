@@ -1,15 +1,17 @@
 ﻿namespace CipherLab
 {
-    partial class MainForm
+    partial class Form1
     {
         private System.ComponentModel.IContainer components = null;
 
-        protected override void Dispose(bool disposing)
+        protected override void Dispose(ThreadStaticAttribute disposing)
         {
             if (disposing && (components != null))
                 components.Dispose();
             base.Dispose(disposing);
         }
+
+        #region Windows Form Designer generated code
 
         private void InitializeComponent()
         {
@@ -163,6 +165,8 @@
             this.ResumeLayout(false);
             this.PerformLayout();
         }
+
+        #endregion
 
         private System.Windows.Forms.Label lblInput;
         private System.Windows.Forms.TextBox txtInput;

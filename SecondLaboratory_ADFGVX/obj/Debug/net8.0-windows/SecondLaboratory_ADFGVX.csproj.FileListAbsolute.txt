@@ -1,0 +1,5 @@
+D:\Учеба\Трусов Алексей Методы Шифрования\Git\Encryption_methods\SecondLaboratory_ADFGVX\obj\Debug\net8.0-windows\SecondLaboratory_ADFGVX.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учеба\Трусов Алексей Методы Шифрования\Git\Encryption_methods\SecondLaboratory_ADFGVX\obj\Debug\net8.0-windows\SecondLaboratory_ADFGVX.AssemblyInfoInputs.cache
+D:\Учеба\Трусов Алексей Методы Шифрования\Git\Encryption_methods\SecondLaboratory_ADFGVX\obj\Debug\net8.0-windows\SecondLaboratory_ADFGVX.AssemblyInfo.cs
+D:\Учеба\Трусов Алексей Методы Шифрования\Git\Encryption_methods\SecondLaboratory_ADFGVX\obj\Debug\net8.0-windows\SecondLaboratory_ADFGVX.csproj.CoreCompileInputs.cache
+D:\Учеба\Трусов Алексей Методы Шифрования\Git\Encryption_methods\SecondLaboratory_ADFGVX\obj\Debug\net8.0-windows\SecondLaboratory_ADFGVX.sourcelink.json

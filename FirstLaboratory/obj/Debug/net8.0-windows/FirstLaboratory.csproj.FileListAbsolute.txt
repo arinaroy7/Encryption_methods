@@ -12,3 +12,4 @@ D:\Учеба\Трусов Алексей Методы Шифрования\Git\
 D:\Учеба\Трусов Алексей Методы Шифрования\Git\Encryption_methods\FirstLaboratory\obj\Debug\net8.0-windows\FirstLaboratory.pdb
 D:\Учеба\Трусов Алексей Методы Шифрования\Git\Encryption_methods\FirstLaboratory\obj\Debug\net8.0-windows\FirstLaboratory.genruntimeconfig.cache
 D:\Учеба\Трусов Алексей Методы Шифрования\Git\Encryption_methods\FirstLaboratory\obj\Debug\net8.0-windows\ref\FirstLaboratory.dll
+D:\Учеба\Трусов Алексей Методы Шифрования\Git\Encryption_methods\FirstLaboratory\obj\Debug\net8.0-windows\FirstLaboratory.sourcelink.json
