@@ -6,7 +6,6 @@ namespace CipherLab
     public partial class MainForm : Form
     {
         private readonly alphabeticCipher _cipher = new alphabeticCipher();
-
         public MainForm()
         {
             InitializeComponent();
@@ -22,12 +21,10 @@ namespace CipherLab
                               "(например, «о», «е», «а»). На основе этого строится предполагаемый ключ, с помощью которого " +
                               "текст расшифровывается. ";
         }
-
         private void btnGenerate_Click(object sender, EventArgs e)
         {
             txtKey.Text = _cipher.CreateRandomKey();
         }
-
         private void btnEncrypt_Click(object sender, EventArgs e)
         {
             try
@@ -39,7 +36,6 @@ namespace CipherLab
                 MessageBox.Show($"Ошибка: {ex.Message}");
             }
         }
-
         private void btnDecrypt_Click(object sender, EventArgs e)
         {
             try
@@ -51,7 +47,6 @@ namespace CipherLab
                 MessageBox.Show($"Ошибка: {ex.Message}");
             }
         }
-
         private void btnHack_Click(object sender, EventArgs e)
         {
             try

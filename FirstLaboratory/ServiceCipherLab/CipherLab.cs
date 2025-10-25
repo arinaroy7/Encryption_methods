@@ -8,7 +8,6 @@ namespace CipherLab
     {
         private const string Alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
         private readonly Random _rand = new();
-
         private static readonly Dictionary<char, double> RussianLetterFrequencies = new Dictionary<char, double>
         {
             {'о', 0.10983}, {'е', 0.08483}, {'а', 0.07998}, {'и', 0.07367}, {'н', 0.06700},
@@ -19,7 +18,6 @@ namespace CipherLab
             {'ш', 0.00718}, {'ю', 0.00639}, {'ц', 0.00486}, {'щ', 0.00361}, {'э', 0.00331},
             {'ф', 0.00267}, {'ъ', 0.00037}, {'ё', 0.00013}
         };
-
         public string CreateRandomKey()
         {
             var letters = Alphabet.ToList();
@@ -30,7 +28,6 @@ namespace CipherLab
             }
             return new string(letters.ToArray());
         }
-
         public string EncryptText(string input, string key)
         {
             if (key == null || key.Length != Alphabet.Length)
@@ -43,7 +40,6 @@ namespace CipherLab
             return new string(input.Select(ch =>
                 map.TryGetValue(ch, out char encoded) ? encoded : ch).ToArray());
         }
-
         public string DecryptText(string input, string key)
         {
             if (key == null || key.Length != Alphabet.Length)
@@ -56,7 +52,6 @@ namespace CipherLab
             return new string(input.Select(ch =>
                 map.TryGetValue(ch, out char decoded) ? decoded : ch).ToArray());
         }
-
         public string HackKey(string cipherText)
         {
             if (string.IsNullOrEmpty(cipherText))
@@ -93,19 +88,16 @@ namespace CipherLab
 
             return new string(hackedKey);
         }
-
         public (string guessedKey, string decryptedText) HackDecrypt(string cipherText)
         {
             var guessedKey = HackKey(cipherText);
             var decrypted = DecryptText(cipherText, guessedKey);
             return (guessedKey, decrypted);
         }
-
         private Dictionary<char, double> CalculateFrequencies(string text)
         {
             var frequencies = new Dictionary<char, double>();
             int totalLetters = 0;
-
             foreach (var c in text)
             {
                 if (Alphabet.Contains(c))
@@ -116,7 +108,6 @@ namespace CipherLab
                     totalLetters++;
                 }
             }
-
             if (totalLetters == 0)
                 return new Dictionary<char, double>();
 
