@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SecondLaboratory_ADFGVX")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4003a26de0d0a4f629a3368385a15d2ad760d172")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd6ce9f4f62c7ae010ba551c05f61a4498be90a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("SecondLaboratory_ADFGVX")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SecondLaboratory_ADFGVX")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
